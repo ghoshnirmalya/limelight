@@ -1,7 +1,7 @@
-import { useFileStore } from "@/app/stores/files";
 import { Button } from "@/components/ui/button";
+import { useFileStore } from "@/stores/files";
 import { open } from "@tauri-apps/api/dialog";
-import { readDir, readTextFile } from "@tauri-apps/api/fs";
+import { readDir } from "@tauri-apps/api/fs";
 
 export const SelectDirButton = () => {
   const updateFiles = useFileStore((state) => state.updateFiles);

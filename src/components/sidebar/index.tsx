@@ -1,4 +1,4 @@
-import { useFileStore } from "@/app/stores/files";
+import { useFileStore } from "@/stores/files";
 import { ContentFile } from "@/components/sidebar/content-file";
 
 export const Sidebar = () => {

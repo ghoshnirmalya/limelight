@@ -1,5 +1,5 @@
-import { useFileStore } from "@/app/stores/files";
-import { cn } from "@/app/utils/tw";
+import { useFileStore } from "@/stores/files";
+import { cn } from "@/utils/tw";
 import { FileEntry, readTextFile } from "@tauri-apps/api/fs";
 import frontMatter from "front-matter";
 import { useEffect, useState } from "react";

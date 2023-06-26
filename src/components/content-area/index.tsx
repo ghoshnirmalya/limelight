@@ -1,4 +1,4 @@
-import { useFileStore } from "@/app/stores/files";
+import { useFileStore } from "@/stores/files";
 import { SelectDirButton } from "@/components/content-area/select-dir-button";
 import { readTextFile } from "@tauri-apps/api/fs";
 import frontMatter from "front-matter";
