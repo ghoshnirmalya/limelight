@@ -1,12 +1,12 @@
 "use client";
 
 import { ContentArea } from "@/components/content-area";
-import { Sidebar } from "@/components/sidebar";
+import { ContentSidebar } from "@/src/components/content-sidebar";
 
 export default function IndexPage() {
   return (
     <div className="flex">
-      <Sidebar />
+      <ContentSidebar />
       <ContentArea />
     </div>
   );
