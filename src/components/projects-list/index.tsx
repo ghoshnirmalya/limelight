@@ -12,7 +12,7 @@ export const ProjectsList = () => {
       {[...Array(10)].map((_, index) => {
         return (
           <Link key={index} href={`/projects/${index}`}>
-            <Card className="hover:shadow">
+            <Card>
               <CardHeader>
                 <CardTitle>Project 1</CardTitle>
                 <CardDescription>Card Description</CardDescription>
